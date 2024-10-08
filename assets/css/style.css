@@ -1,0 +1,30 @@
+.productList {
+  width: 60%;
+  background-color: hsl(13, 31%, 94%);
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cotainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.cartList {
+  width: 40%;
+  background-color: hsl(20, 50%, 98%);
+  min-height: 100vh;
+}
+.image {
+  width: 10rem;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.item {
+  background-color: white;
+  padding: 10px;
+}
+
+body {
+  margin: 0;
+}
